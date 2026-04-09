@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: yellowgreen;
+    position: relative;
+}
+.background .box1{
+    width:100px;
+    height: 100px;
+    background-color: black;
+    position:absolute;
+    bottom: 0;
+    right: 0;   
+}
+.background .box2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: wheat;
+}
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(206, 85, 37);
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.social-links{
+    position: fixed;
+    top:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    overflow: hidden;
+}
+.social-links i{
+    width:40px;
+    height: 40px;
+    font-size: 30px;
+    color:white;
+    padding: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+}
+.social-links i:active{
+    transform: scale(-0.5);
+}
+.social-links i:nth-child(1){
+    background-color: purple;
+}
+.social-links i:nth-child(2){
+    background-color: blue;
+}
+.social-links i:nth-child(3){
+    background-color:green;
+}
+.social-links i:nth-child(4){
+    background-color: red;
+}
+.background2{
+    position:absolute
+}
+.background2 .box1{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+
+}
